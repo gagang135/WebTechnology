@@ -1,0 +1,50 @@
+CSS
+---
+- CSS stands for cascading style sheet which is used to style and design the HTML webpages.
+- it is invented by hakon wium lee in the year of 1996.
+- the CSS file saved with extension  .css
+- the current version of CSS is CSS3
+
+why CSS
+---------
++ css is used to style and design the HTML web pages.
++ CSS is used to make the allignment of HTML elements.
++ CSS is used to make a web page responsive.
+    responsive --> making webpages fit for all the devices without losing any content.
+
+Types of CSS
+------------
+
++ inline CSS
++ internal CSS
++ External CSS
+
+inline CSS
+----------
+ it is used by taking style attribute inside the opening tagof the HTML element.
+    example:- <button style="background-color:black; color:white;" ></button>
+            
+internal CSS
+-----------
+it is used by taking style tag inside head section.
+    example:-   <html>
+                    <head>
+                        <style> </style>
+                    <head>
+                    <body>
+                    </body>
+                </html>
+
+
+external CSS
+------------
+creating file with .css and link the file to HTML file using link tag.
+example:-       <html>
+                    <head>
+                       <link rel="stylesheet" href="">
+                    <head>
+                    <body>
+                    </body>
+                </html>
+
+            

@@ -1,0 +1,67 @@
+Attributes
+----------
++ which gives extra / additional information about the tags.
++ all elements or tags can have multiple attributes.
++ we can write attributes only inside opening tag <ot>
++ attributes are written in the form of __key="value"__
++ example:- 
+    <a href="" target="">
+    <a> --> specifies anchor tag in HTML.
+    here href and target are the attributes.
+    * href --> hyper reference, which creates a links to another pages.
+    * target --> which specifies where to load the page, whether in the same page or in different page.
+            there are 4 values for target --> _self, _parent, _top and _blank
+             here self, top and parent loads the page in same tab and blank loads the page in different tab.
+
+
+    img:-
+    <img src="" alt="" height="" width="">
+         this tag is used to add images to the pages
+         src --> here we can pass url of image in two ways
+            + Absolute path --> where the image address is copied from the browser and the URL is pasted at SRC.
+            + relative path --> where the image is saved in the PC and the path is pasted in the SRC.
+
+
+
+TABLES
+--------
+
+--> tables are the collection of rows and columns.
+--> Rows are the horizontal representation of table.
+--> Columns are the verticle repreentation of table.
+--> Cells are the intersection of rows and columns.
+
+example:-
+creating a simple 2X2 table
+<table cellspacing="px" cellpadding="px" border="">
+    <tr>
+        <td rowspan="numbers"> 1 </td>
+        <td> 2 </td>
+    </tr>
+     <tr>
+        <td colspan="numbers"> 3 </td>
+        <td> 4 </td>
+    </tr>
+</table>
+
+output
+------
++---+---+
+| 1 | 2 |
++---+---+
+| 3 | 4 |
++---+---+
+
+Note:- if we want heading we need to give <th> instead of  <td>.
+
+attributs of table
+------------------
+
++ border --> it gives the border around the table and cells.
++ cellspacing --> it provides the space between the cells.
++ cellpadding --> it provides the space around the content inside the cell.
+
+attributes of <td> or <th>
+--------------------------
++ rowspan --> it is used to merge 2 or more rows.
++ colspan --> it is used to merge 2 or more columns.

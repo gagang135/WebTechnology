@@ -1,0 +1,71 @@
+Tags
+----
+pre defined reserve keywords.
+
+two types
+----------
+|
+    ------> paired tags / couple tags
+|
+    ------> unpaired tages / self closing tags / void elements
+|
+
+
+paired tags
+-----------
+1. headre tags
+--------------
+    + <h1> </h1>  --> larest form
+    + <h2> </h2>
+    + <h3> </h3>
+    + <h4> </h4>
+    + <h5> </h5>
+    + <h6> </h6>  -->smallest form
+
+2. format tags
+--------------
+    + bold <b> </b>
+    + itallic <i> </i>
+    + strong <strong> </strong>
+    + emphasis <em> </em>
+    + strike <strike> </strike>
+    + underline <u> </u>
+    + highlight <mark> </mark>
+    + scripting  
+        * subscript <sub> </sub>
+        * superscript <sup> </sup>
+
+
+3. other tags
+-------------
+<p> </p> -->paragraph 
+<pre> </pre>  --> adds tab space for each line except first line.
+<div> </div>  --. division not works without CSS.
+
+
+
+unpaired tags
+--------------
+<!DOCTYPE>
+<meta>
+<br> --used to break the line means content will move to the next line.
+<hr> --> used to add a horizontal line.
+<img> -->used to add images.
+
+
+Elements
+---------
+it is a combination of opening tag + content + closing tag.
+
+there are two types
+
+1. block level element
+----------------------
+it consumes 100% screen width.
+example:- heading tags and div tag.
+
+2. inline level element
+-----------------------
+it consumes only content width.
+example:- formatting tags and span tag.
+

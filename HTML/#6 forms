@@ -1,0 +1,128 @@
+forms
+-----
+
+forms are used to collect user information and send it to the server.
+
+ex:- signup or login forms
+
++----------------------------------+
+|            SIGNUP PAGE           |
++----------------------------------+
+
+ Full Name: [______________________________]
+
+ Username:  [______________________________]
+
+ Email ID: [______________________________]
+
+ Phone Number: [______________________________]
+
+ Date of Birth:[______/______/______]
+
+ Gender:
+ ( ) Male   ( ) Female   ( ) Other
+
+ Password:[______________________________]
+
+ Confirm Password:[______________________________]
+
+ Address:[______________________________]
+
+ Upload Profile Photo:
+ [ Choose File ]
+
+ 
+    [ SIGN UP ]
+
+ Already have an account? [ Login Here ]
++----------------------------------+
+
+syntax:- <form action="URL" method="GET/POST"><form>
+--------
+
+attributes:-
+-----------
++ action:- once the from is submitted the action attribute is used to give the server URL.
++ method:- it has two values 
+    * get --> the data is visible in URL and not secured.
+    * post --> the data is not visible in URL and secured.
+
+note:- by default get method will be there when we create a form.
+
+
+
+fieldset
+--------
+which provides a border for a form.
+<fieldset> </fieldset>
+
+legend
+------
+which provides a title for that bordered form.
+<legend> </legend>
+
+label
+-----
+which provides name for particular input using for attribute.
+    for:-  it is used to add a ID of input box so when user click on the label it will highlight the particular input box.
+
+    Syntax:-  <label for="id of input"></label>
+
+
+    note:- form and fieldset tags are block level elements and remaining all are inline level elements. Except input tag all are paired tags.
+
+Input
+-----
+this tag is used to to enter the user data or which creates a space to enter the particular data.
+
+it has 3 attributes
+
+1. type --> which is used to specify the type of input or data. 
+        values for type attribute:- 
+                text, password, date, maonth, color, file, number, URL, range, radio, checkbox, submit, hidden.
+
+2. name --> which stores the particular input values with the name of input in database.
+
+3. id --> which used to connect with label.
+
+other attributes
+
+readonly, placeholder, values, autofocus, size, nimlength, maxlength, hidden, disabled.
+
+
+button
+------
+which creates a button which can clickable. 
+<button> </button>
+
+
+Textarea
+----------
+it is alternative for input which takes large number of input.
+
+attributes of textarea
+----------------------
+
+1. name --> which stores the particular input values with the name of input in database.
+
+2. id --> which used to connect with label.
+
+3. cols and rows --> used to expand the number of rows and columns of a textarea
+
+<textarea name="" id="" cols="" rows=""> </textarea>
+
+select tag
+-----------
+it is used to take input in the form of dropdown.
+
+    option tag
+    -----------
+        it is used to create a options inside a dropdown.
+    
+    syntax:-
+        <select>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+        </select>
+

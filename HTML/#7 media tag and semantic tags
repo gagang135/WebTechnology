@@ -1,0 +1,85 @@
+media tags
+----------
+there are 4 types 
++ image
++ audio 
++ video
++ iframe
+
+1. image tag:- it is used to add images. it is a unpaired tag.
+    attributes:- src, alt, heght, width
+    syntax:- <img src="" alt="" height="" width="">
+
+2. audio tag:- it is used to add audio file to a webpage
+    attributes:- src, controls, muted, autoplay, loop.
+   + here autoplay will not work.
+   + src --> this is the source where we insert the audio path.  we can't able to add absolute path because of copyrights.  we can add relative path.
+   + control --> if we want to have play, pause, mute we need this attribute.  without control we can't able to see anything.
+   + muted --> used to mute the audio.
+   syntax:- <audio src="" controls muted autoplay loop>
+
+
+video
+-----
+video tag is used to insert a video to a webpage. if we want to use auto play attribute we need to use muted compulsary.
+
+attributes:- src, controls, muted, autoplay, loop, height, width.
+syntax:- <video src="" controls muted autoplay loop height="px" width="px">
+
+
+iframe
+------
+it is used to embed a webpage inside another webpage.
+here we can embed only maps or videos.
+
+
+step1:- open youtube video, click share button.
+step2:- click on embed or copy unique id then paste it in src.
+step3:- copy the html code.
+
+syntax:- <ifrane src="" frameborder="">
+
+
+
+semantic tags
+-------------
+- the tags which describes itself to the browser and to the developer is called as semantic tags.
+- it is implemented in HTML 5.
+
+why semantic tags
+-----------------
+due to the drawback of olden days web pages development  that is using only div tag they are implemented semantic tags.
+
+example:-
++----------------------------------+
+|             HEADER               |
++----------------------------------+
+|               NAV                |
++----------------------------------+
+|               MAIN               |
+|   +-----------+   +-----------+  |
+|   |  SECTION  |   |  ASIDE    |  |
+|   +-----------+   +-----------+  |
+|   |           ARTICLE         |  |
++----------------------------------+
+|             FOOTER               |
++----------------------------------+
+
+
+
+
+difference between HTML and HTML5
+
+HTML
+------
+ + semantic tags are not implemented.
+ + media tags are not fully supported.
+ + limited browser supported for HTML.
+ + JavaScript is partially supported.
+
+HTML5
+------
++ semantic tags are implemented.
++ media tags are supported.
++ all browsers supported.
++ Javascript is full supported.

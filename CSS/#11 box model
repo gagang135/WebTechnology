@@ -1,0 +1,74 @@
+box model
+---------
++ it is a container which conists of content, padding, border and margin.
++ every web pages consists of box-model.
++ the HTML file consist of HTMl elements. bydefault the content of element will display in the top-left corner of the document.
+
+
+padding
+--------
+it is a space around the HTML content.
+it has 4 properties
+
+- padding-top: px; --> it adds space top of the content. 
+- padding-right: px; --> it adds space right of the content. 
+- padding-bottom: px; --> it adds space bottom of the content. 
+- padding-left: px; --> it adds space left of the content.
+
+shorthand property:-
+        padding: px; --> applies all sides.
+        padding: px px; --> first value top and bottom second value left and right.
+        padding: px px px ; --> first value top, second value left and right third value bottom.
+        padding: px px px px ; --> 1st - top, 2nd - right, 3rd - bottom, 4th - left.
+
+
+border
+---------
+it is the region between the padding and margin or it is the space around the padding.
+
+- border-width: px; --> width of the border.
+- border-style: solid, dotted, double, dashed, inset, outset, grooved; --> these are the border styles we can apply.
+- border-color: ; --> here we can pass any color as an argument
+
+shorthand property:-
+        border: width style color;
+
+
+
+margin
+---------
+it is space around the border.
+it has 4 properties.
+
+- margin-top: px; --> it adds space top of the content. 
+- margin-right: px; --> it adds space right of the content. 
+- margin-bottom: px; --> it adds space bottom of the content. 
+- margin-left: px; --> it adds space left of the content.
+
+shorthand property:-
+        margin: px; --> applies all sides.
+        margin: px px; --> first value top and bottom second value left and right.
+        margin: px px px ; --> first value top, second value left and right third value bottom.
+        margin: px px px px ; --> 1st - top, 2nd - right, 3rd - bottom, 4th - left.
+
+
+
+how to calculate the height and width of HTML elements
+
+- formula to calculate width
+        content-width + padding-left + padding-right + border-left + border-right + margin-left + margin-right.
+
+- formula to calculate height
+        content-height + padding-top + padding-bottom + border-top + border-bottom + margin-top + margin-bottom.
+
+example:- 
+        p{
+            height: 100px;
+            width: 200px;
+            border: 5px solid red;
+            margin: 10px 20px;
+            padding: 2px 4px 8px;
+        }
+
+        height:- 100+2+8+5+5+10+10 = 140px
+        width:- 200+4+4+5+5+20+20 = 258px

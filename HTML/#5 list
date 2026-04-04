@@ -1,0 +1,116 @@
+Lists
+--------
+
+if we want to show the set of items in a list we need to go for lists in HTML.
+
+we have 4 types
+---------------
+1. ordered list
+2. unordered list
+3. nested list
+4. description / descriptive / definition list
+
+
+1. ordered lists
+-----------------
+if we want to display the list of items in particular ordere way we need to use ordered list.
+
+syntax
+------
+
+<ol>  -->ordered list
+    <li> </li> --> list items
+</ol>
+
++ by default ordered list will give output in numbers.
+
+attributes
+-----------
+1. type --> number "1", uppercase alphabets "A", lowercase alphabets "a", uppercase roman "I", lowercase roman "i".
+2. start --> if we want to start the order from a particular value we use start. it take only numbers as values.
+        ex:- <ol type="a" start="3">
+                <li>plant</li>
+                <li>tree</li>
+                <li>root</li>
+            </ol>
+
+                output
+                ------
+                c. plant
+                d. tree
+                e. root
+
+3. reversed --> it will reverse the order
+ ex:- <ol type="1" start="3" reversed>
+                <li>plant</li>
+                <li>tree</li>
+                <li>root</li>
+                <li>leaf</li>
+                <li>branch</li>
+     </ol>
+
+
+                output
+                ------
+                3. plant
+                2. tree
+                1. root
+                0. leaf
+               -1. branch
+
+note:-
+-----
+if we add all attributes like type, start and reversed. it will decresed.
+
+
+2. unordered list
+------------------
++ if we want to store the set list items in an unordered way we need to use unordered lists.
++ by default the output will be disc.
+
+    <ul>  -->unordered list
+        <li> </li> --> list items
+    </ul>
+
+    attributes
+    ----------
+    1. type --> "circle","disc","square","null"
+    here we dont use start and reversed attribute because it won't change in order.
+
+
+3. nested list
+---------------
+a list inside another list is called as nested list 
+
+note:-unordered list inside a nested list will give an output circle type by default.
+
+    <ol type="1" start="3" reversed>
+                <li>plant</li>
+                <li>tree</li>
+                <li>root</li>
+                <ul> 
+                    <li> </li> 
+                </ul>
+                <li>leaf</li>
+                <li>branch</li>
+     </ol>
+
+
+4. descriptive list
+--------------------
+if we want to give any heading and sentence format we need to go for descriptive list
++ <dl> --> discriptive list
++ <dt> --> discreptive term
++ <dd> --> discreptive data
+
+
+ex:-
+    <dl>
+        <dt>subject:</dt>
+        <dd>asking permission to 2 days leave </dd>
+    </dl>
+
+
+    output:-
+    subject:
+        askibng permission to 2 days leave

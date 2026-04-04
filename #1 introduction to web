@@ -1,0 +1,66 @@
+3 tier architecture
+-------------------
+
+Frontend
+-----------
+the content what we display on the browser we call it as frontend.
+
+server/middleware
+------------------
+it is a place where all the programs are installed .
+we use technologies like java, JDBC, servlet, Spring, microservices.
+
+Backend (database)
+------------------
+it is a place where we store the data in systemattic or organised way.
+
++-------------------------+        +-----------------------------+        +------------------------------+
+|        Front End        | -----> |         Middle ware         | -----> |             Backend          |
+|     (Client / UI)       |        |      (Business Logic)       |        |        (Database Layer)      |
+|                         |        |                             |        |                              |
+| HTML                    |        | Java (Spring Boot)          |        | MySQL                        |
+| CSS                     |        | Python (Django, FastAPI)    |        | PostgreSQL                   |
+| JavaScript              |        | Node.js (Express)           |        | MongoDB                      |
+| React                   |        | PHP (Laravel)               |        | Oracle                       |
+| Angular                 |        | .NET                        |        | SQLite                       |
+| Vue                     |        | REST APIs / GraphQL         |        | Firebase                     |
+| Bootstrap / Tailwind    |        | Authentication Services     |        | Redis (Caching)              |
++-------------------------+        +-----------------------------+        +------------------------------+
+
+
+
+why we use HTML?
+HTML is used to create and give struture to the webpages.
+
+why we use CSS?
+CSS is used to style and layout the webpages.
+
+why we use JavaScript?
+JS is used to give action and special effects to the web pages.
+
+what is browser?
+it is an application to load webpages, websites and webservers.
+
+what is DNS?
+DNS stans for domain name system is used to recieve the input from browser and convert it to IP address (human readable form to system understandable from). It will return tha IP address to server.
+
+
+how to find the IP address is running or not in our pc?
+__ping  IP_address__
+
++--------+        +------+        +--------+
+|  WEB   | -----> | DNS  | -----> | SERVER |
+|Browser |        |System|        |Website |
++--------+        +------+        +--------+
+
+
+what is static webpages?
+these webpages are developed using HTML and CSS.
+these webpages will not have any functionality.
+
+what is dynamic webpages?
+these webpages are developed using HTML, CSS and JS.
+these webpages will have some functionality.
+
+
+

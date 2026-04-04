@@ -1,0 +1,131 @@
+selectors
+---------
+these are used to target or select the HTML tag in ordered to style the content
+
+there are 5 types
+-----------------
++ simple selectors
++ combinator selector
++ psudo elements
++ psudo classes
++ attribute selectors
+
+
+- Simple selectors
+-------------------
+it is used to target the HTML tag or elementsby using id, class, tag name, grouping and universe
+
+there are 5 types
++ ID --> it is used to target unique or single HTML elements
+        symbol #
+        example:- 
+                         #header
+                            │
+                            ▼
+                    +-------------+
+                    |  Element 1  |
+                    +-------------+
+
+            (Selects ONLY one unique element)
+
++ class --> it is used to target multiple HTML elements with the same styling
+        symbol .
+        example:-
+                      .note
+                        │
+                    ┌───┼───┐
+                    ▼   ▼   ▼
+                +-------+-------+-------+
+                | Elem1 | Elem2 | Elem3 |
+                +-------+-------+-------+
+
+                (Selects multiple elements)
+
++ tag name -->it is used to target the element by taking tag itself
+        there is no any symbol
+        example:- 
+                    p
+                    │
+                ┌────┼────┐
+                ▼    ▼    ▼
+            +-------+-------+-------+
+            | Para1 | Para2 | Para3 |
+            +-------+-------+-------+
+
+            (Selects all same tag elements)
+
++ grouping --> it is used to target multiple elements separated by comma (here we can take multiple tag names, ID and classes)
+        example:-
+                    h1      p      div
+                    │      │       │
+                    └──────┴───────┘
+                            ▼
+                    +-------------------+
+                    | Same Style Applied|
+                    +-------------------+
+
+                    (One rule for multiple elements)
+
++ universe --> it is used to target whole HTML page
+        example:- 
+                                *
+                                │
+                    ┌──────────┼──────────┐
+                    ▼          ▼          ▼
+                    h1          p         div
+                    ▼          ▼          ▼
+                    table      span      form
+                    ▼          ▼          ▼
+                        ALL ELEMENTS
+
+                    (Selects entire document)
+
+
+
+- combinator selectors
+----------------------
+it is used to target the HTML elements by establishing the relationship between the HTML elements.
+ there are 4 types
+
+ + descendent selector ( )  --> it is used to target the HTML elements which are direct and indirect children for the parent element.
+                                    symbol is "space"
+
+ + child selector (>)  --> it is used to target the HTML elements which are direct child for the aprent element.
+                                    symbol is ">"
+ 
+ + adjacent sibling selector (+) --> it is used to select the HTML elements which is adjacent to parent element
+                                    symbol is "+"
+
+ + general sibling selector (~) --> it is used to select the HTML elements which comes after the parent element.
+                                    symbol is "~"
+
+
+psudo elements
+--------------
+ which are used to target the specific part of the html element or document.
+
+ there are 6 types
+ + first letter
+ + first line
+ + before
+ + after
+ + marker
+ + selection
+
+ syntax:- 
+                selector::psudo-elements{
+                        property : property-values; 
+                }
+
+note:- marker will only works whenever we are using a helping property called content.
+
+
+psudo classes
+---------------
+
+these are the selectors which is used to target the elements and checks the status of HTML elements
+
+syntax:- 
+        selector:psudo-class{
+                property : property-value;
+        }

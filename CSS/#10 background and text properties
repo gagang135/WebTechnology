@@ -1,0 +1,24 @@
+background properties
+---------------------
+
++ background-color : [colors] ; --> here we can pass any color which fill the background of the content.  
++ background-image: url(""); --> here we can pass both absolut and relative path of an image.
++ background-repeate: [no-repeate, repeate(default), repeate-x, repeate-y ]; --> it is used to repeatation of background image.
++ background-size : width (px) height(px); --> it is used to adjust the background iamge size.
++ background-position:x-axis(px), y-axis(px); --> it is used to align the background iamge.
++ background-attachment: scroll (default), fixed; --> when we scroll the cantent the background also scroll along with content so we can use this property.
+
+
+
+text properties
+----------------
++ color: ; --. to apply the color for text
++ text-align: left(default), center, right; --> used to allign the text.
++ text-indent: px; --> which provides the indent on first line.
++ word-spacing: px; --> it is used to give the space between the words.
++ letter-spacing: px;  --> it is used to give space for each letter.
++ line-height: px;  --> it is used to give space between the lines.
++ text-shadow: x-axis(px) y-axis(px) blur(px) color; --> it is used to add shadow for the text.
++ text-translation: capitalize (first letter of each word will conver to capital), uppercase(all characters convert to uppercase), lowercase(all characters convert to lowercase);
++ text-decoration: width(px) style color [underline, overline, line through]; --> it is used to apply the decoration for the element.
++ text-align-last: left(default), center, right;

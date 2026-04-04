@@ -1,0 +1,37 @@
+HTML 
+----
+__Hyper Text Markup Language__
+
+Hyper- Link
+Text- format
+Markup- <tags> there are 4 types of braces <>, (), {}, []
+
+-invented by Tim Bernerslee
+-invented in 1993
+-current version 5
+-extension .html for version 5 and .htm for version 4
+-it is also called as Standard markup language
+
+__other than html__
+
+xhtml --> extensible html
+xml --> extensibe markup language
+jsx/jsxml --> java script extensible markup language
+JSP --> java servlet page
+
+-it says what content to be displayed in a browser.
+
+structure of html/ boiler plate
+
+<!DOCTYPE > --> declare the version of html
+<html>  --> root element
+    <head>  --> store the meta data
+        <meta>  --> store the browser data
+        <title> </title>
+        <opentag>  </closetag>
+    </head>
+    <body>
+        // content displayed on browser
+    </body>
+</html>
+
