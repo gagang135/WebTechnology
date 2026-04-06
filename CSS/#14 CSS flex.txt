@@ -1,0 +1,22 @@
+  CSS flex
+  ---------
+    flex is used to align the items flexibly inside the flex container.
+    it is one dimensional layout taht is arranging items either in row or in column
+
+    drawback of css positions
+    
+    - to align each elemt is should take CSS positions.
+    - to make web pages responsive it will takes more number of code
+    - code optimization is difficult (reducing the code)
+
+    advantages offlex
+
+    - flex is used to allign the items flexibly inside flex container
+    - responsive pages
+    - code optimization
+
+    how to make flex container and flex items
+
+    - using the property called display: flex
+    - converts container into flex container and items into flex items
+    - 

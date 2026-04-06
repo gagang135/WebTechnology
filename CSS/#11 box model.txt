@@ -62,6 +62,7 @@ how to calculate the height and width of HTML elements
         content-height + padding-top + padding-bottom + border-top + border-bottom + margin-top + margin-bottom.
 
 example:- 
+
         p{
             height: 100px;
             width: 200px;

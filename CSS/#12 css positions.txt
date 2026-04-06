@@ -1,0 +1,35 @@
+CSS positions
+--------------
+ it is used to allign the html elements from one place to another place throughout the web pages.
+
+ there are 5 types
+ +  relative
+ +  absolute
+ +  fixed
+ +  sticky
+ +  static (default)
+
+ - Relative positions
+ ---------------------
+
+ the element which has relative position will move from one place to another with respect to its own position.
+ It will give hallow space in the original position or starting position.
+
+
+ - Absolute position
+ -------------------
+
+ the elements which has absolute position depends on html document from there it will move from one place to another place.
+ by default it depends onhtm. document and it doesn't leave hallow space in starting position.
+ it depends on nearest html element which has position.
+
+ - fixed position
+ ----------------
+
+ the element which has fixed position will fixed for entire html document.
+ by default it depends on html document.
+
+ - sticky position
+ ------------------
+
+ the element which has sticky position it acts as relative and fixed until its parent is end.

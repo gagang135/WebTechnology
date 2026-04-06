@@ -100,7 +100,7 @@ it is used to target the HTML elements by establishing the relationship between 
                                     symbol is "~"
 
 
-psudo elements
+- psudo elements
 --------------
  which are used to target the specific part of the html element or document.
 
@@ -120,7 +120,7 @@ psudo elements
 note:- marker will only works whenever we are using a helping property called content.
 
 
-psudo classes
+- psudo classes
 ---------------
 
 these are the selectors which is used to target the elements and checks the status of HTML elements
@@ -129,3 +129,71 @@ syntax:-
         selector:psudo-class{
                 property : property-value;
         }
+
+there are two types
+---------------------
+- Dynamic 
+        + link --> it is used to apply the style for the link created using anchor tag <a>
+                example:- a:link{
+                        color: red;
+                }
+
+        + hover --> it is used to apply the style when user hover mouse over the content / link 
+                example:- a:hover{
+                        color : red;
+                }
+        
+        + visited --> it changes the color if user already visited that link
+                example:- a:visited{
+                        color:red;
+                }
+
+        + active --> it appliesthe style when we click the right button of mouse above the link
+                example:- a:active{
+                        color : red;
+                }
+
+- Structural psudo class
+        to avoid the id and class we go for structural psudo classes
+        there are 3 types
+                + first-child
+                        it will target the 1st element to the parent element.
+
+                        example:- <body>
+                                        <div></div>  --> 1st child
+                                        <div></div> --> nth-child
+                                        <div></div> --> last child
+                                </body>
+                                body>div:first-child{
+                                        color : red;
+                                }
+
+                + last-child
+                        it is used to target last child to the parent element
+
+                        example:- body>div:last-child{
+                                color:blue;
+                        }
+                        
+                + nth-child
+                        it will target the elements after parent element based on user input number.
+
+                        example:- body>div:nth-child(2)
+                                        or
+                                  body>div:nth-child(odd)
+                                        or
+                                  body>div:nth-child(even){
+                                        color:yellow;
+                                   }
+
+- attribute selectors
+----------------------
+ these are used to target the element by specifying attributes inside it.
+ if attributes are same through values we can target individually.
+
+ example:- 
+           <input type="password"> 
+
+           input [type="password"]{
+                background-color: red;
+           }

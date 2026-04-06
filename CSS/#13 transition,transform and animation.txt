@@ -1,0 +1,73 @@
+Transition
+-----------
+
+    it is used to make the html element smooth effect
+    it is used in original content
+
+    there are 4 types
+
+    + transition-property: all; --> here we need to mention for which property we are going to add Transition
+    + transition-duration: seconds; --> it completes the transition in this given duration.
+    + transition-timing-function: linear; --> it will make smooth  movement of element.
+    + transition-delay: seconds; --> it will delay the transition for the mntioned duration
+
+    shorthand property
+    ------------------
+
+        transition: transition-property  transition-duration  transition-timing-function  transition-delay;
+
+Transform
+----------
+    it is used inside the hover part of content
+
+    Transform: rotaet(degree);
+    Transform: translateX(px);
+    Transform: translateY(px);
+    Transform: translate(X,Y);
+    Transform: scaleX(number);
+    Transform: scaleY(number);
+    Transform: scale(X, Y);
+    Transform: skewX(degree);
+    Transform: skewY(degree);
+    Transform: skew(X, Y);
+
+    note: -values will apply in the opposite direction
+
+
+Animation
+----------
+
+    Animation in CSS is used to change the CSS property of an html element from one to another during some duration of time 
+    - we can change n number of CSS properties
+    - we can change animations of html element n number of times
+    - using animations we can provide 5-10% of functionality to the web pages.
+
+    @keyframe
+    ----------
+
+    it is a keyword where it holds the style of an html element over the period of time 
+    - we used to link html element & @keyframe by prviding same name for animation name and identifier of @keyframes
+
+    example:-
+
+    div{
+        height: 400pxx;
+        width: 400px;
+        background-color: red;
+        animation-name:box;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: 5; 
+
+    }
+    @keyframe box{
+        from{
+            background-color: red;
+            width: 400px;
+        }
+        to{
+            background-color: blue;
+            width: 800px;
+        }
+    }
