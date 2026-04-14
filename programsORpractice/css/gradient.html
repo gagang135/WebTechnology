@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradients</title>
+    <style>
+        body>div:nth-child(1){
+            height: 200px;
+            width: 100%;
+            background-color: orange;
+        }
+        body>div:nth-child(2){
+            height: 200px;
+            width: 100%;
+            background-color: white;
+        }
+        body>div:nth-child(3){
+            height: 200px;
+            width: 100%;
+            background-color: green;
+        }
+        body>div:nth-child(2)>div:nth-child(1){
+            height: 200px;
+            width: 200px;
+            background-image: radial-gradient(white 0,white 2, blue 2,blue 4);
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+    
+    <div>
+        <div></div>
+    </div>
+    
+    <div></div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        body{
+            background-color: rgb(189, 247, 227);
+        }
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 5px 5px 5px rgb(245, 8, 8);
+            text-decoration: 2px solid underline;
+
+        }
+        body>div:nth-child(3){
+            height: 500px;
+            width: 80%;
+            background-color: beige;
+            border: 1px solid red;
+            display: grid;
+            grid-template-columns:33.3% 33.3% 33.3% ;
+            grid-template-rows: 50px 50px;
+            row-gap: 5px;
+            column-gap: 2px;
+            padding: 10px;
+            border-radius: 20px;
+            grid-template-areas: "hdr hdr hdr" "nav nav nav" "sec1 sec1 sec2" "sec3 sec4 sec5" "sec6 sec7 sec7" "ftr ftr ftr";
+            
+        }
+        body>div:nth-child(3)>div{
+            background-color: aliceblue;
+            border: 2px solid red;
+            border-radius: 20px;
+        }
+
+        body>div:nth-child(3)>div:nth-child(1){
+            grid-area: hdr;
+        }
+        body>div:nth-child(3)>div:nth-child(2){
+            grid-area: nav;
+        }
+        body>div:nth-child(3)>div:nth-child(3){
+            grid-area: sec1;
+        }
+        body>div:nth-child(3)>div:nth-child(4){
+            grid-area: sec2;
+        }
+        body>div:nth-child(3)>div:nth-child(5){
+            grid-area: sec3;
+        }
+        body>div:nth-child(3)>div:nth-child(6){
+            grid-area: sec4;
+        }
+        body>div:nth-child(3)>div:nth-child(7){
+            grid-area: sec5;
+        }
+        body>div:nth-child(3)>div:nth-child(8){
+            grid-area: sec6;
+        }
+        body>div:nth-child(3)>div:nth-child(9){
+            grid-area: sec7;
+        }
+        body>div:nth-child(3)>div:nth-child(10){
+            grid-area: ftr;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>gird in css</h1>
+    <hr>
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

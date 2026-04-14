@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>window page</title>
+
+    <style>
+        body{
+            color: white;
+        }
+        #parent{
+            display: flex;
+            gap: 3px;
+        }
+        #side1{
+            background-color: rgb(48, 48, 48);
+            height: 600px;
+            width: 600px;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+        #side2{
+            height: 600px;
+            width: 200px;
+            background-color: rgb(48, 48, 48);
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+        input{
+            width: 500px;
+            height: 20px;
+            margin: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: aliceblue;
+
+        }
+        #head{
+            width: 600px;
+            height: 50px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+
+        }
+        #p1{
+            margin-left: 20px;
+        }
+        #p2{
+            border: 2px solid black;
+            border-radius: 4px;
+            margin: 30px;
+            background-color: darkgray;
+        }
+        table{
+            padding: 20px;
+            margin: 10px;
+        }
+        #side2{
+            display: inline;
+            justify-content: start;
+            align-items: center;
+        }
+        #pa{
+            text-align: center;
+        }
+        #but{
+            display: flex;
+            margin: 20px;
+            gap: 20px;
+        }
+        #img{
+            height: 100px;
+            width: 100px;
+            background-image: url("./Screenshot\ 2026-02-22\ 154245.png");
+            background-size: 100px 100px;
+            border-radius: 20px;
+            margin-left: 50px;
+            margin-top:50px ;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+    <div id="side1">
+        <form action="">
+            <input style="text-align: center;" type="text" placeholder="🔍 Search for apps,settings, and documents" >
+        </form>
+        <div id="head">
+            <div id="p1"><h4>Pinned</h4></div>
+            <div ><button id="p2" style="color: white; background-color: rgb(23, 23, 23);">All ></button></div>
+            </div>
+            <table>
+                <tr>
+                    <td><img src="" alt="">Edge</td>
+                    <td><img src="" alt="">Word</td>
+                    <td><img src="" alt="">Excel</td>
+                    <td><img src="" alt="">PowerPoint</td>
+                    <td><img src="" alt="">Outlook(new)</td>
+                    <td><img src="" alt="">Microsoft Store</td>
+                </tr>
+                <tr>
+                    <td><img src="" alt="">Photos</td>
+                    <td><img src="" alt="">Xbox</td>
+                    <td><img src="" alt="">HP</td>
+                    <td><img src="" alt="">Amazon.com</td>
+                    <td><img src="" alt="">Deepbox Promotion</td>
+                    <td><img src="" alt="">Settins</td>
+                </tr>
+                <tr>
+                    <td>Solitrate & Casual Games</td>
+                    <td>paint</td>
+                    <td>LinkedIn</td>
+                    <td>Calculator</td>
+                    <td>Clock</td>
+                    <td>Notepad</td>
+                </tr>
+            </table>
+            <div style="display: flex; gap: 400px;justify-content: space-between; padding: 0 10px;"><h4>Recommended</h4> <button style="width: 70px; height: 25px; background-color: rgb(49, 48, 48); color: white; border-radius: 10px;">More ></button></div>
+            
+            
+        
+        <div style="display: flex;background-color: black; margin-bottom: 0;  ">
+
+            <div style="display: flex; margin: 10px 10px 10px 10px; align-items: center;gap:10px"><img src="./JPEG_20260108_214407_3981457540332811537.jpg"  height="50px" width="50px" style="border-radius: 50px;"> Gagan G</div>
+            
+        </div>
+    </div>
+    <div id="side2"> 
+        <div id="img"> </div>
+        <div id="pa" ><h4>Access your mobile device here</h4>
+        <p>Keep up with calls, messages, and recent activity here in the Start menu</p></div>
+        
+        <h4 style="text-align: center;">Select device</h4>
+        <div id="but">
+        <button style="border: 1px solid black; border-radius: 4px; background-color: rgb(45, 43, 43);color: white; height: 25px;">Android™</button> <button style="border: 1px solid black; border-radius: 4px; background-color: rgb(45, 43, 43);color: white; height: 25px;">iPhone®</button></div>
+        <div style="text-align: center; color:rgb(160, 238, 5) ;">Hide this pane</div>
+    </div>
+    </div>
+</body>
+</html>

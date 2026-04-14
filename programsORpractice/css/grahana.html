@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grahana</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        body>div{
+            height: 300px;
+            width: 300px;
+            background-color:yellow;
+            border-top: 10px solid red;
+            border-left: 10px solid blue;
+            border-right: 10px solid green;
+            border-bottom: 10px solid black;
+            border-radius: 50%;
+            animation: rotate 3s linear 0s infinite ;
+            position: relative;
+            top:200px;
+            left:600px;
+            font-size: 650px;
+            display: flex;justify-content: center;align-items: center;
+            transform: rotate(90deg);
+        }
+        @keyframes rotate {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+                border-width: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>+</div>
+</body>
+</html>

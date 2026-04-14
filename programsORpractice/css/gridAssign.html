@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        body>div:nth-child(1){
+            height: 650px;
+            width: 80%;
+            background-color: rgb(247, 171, 72);
+            border: 2px solid red;
+            display: grid;
+            justify-content: space-evenly;
+            grid-template-columns: 19.5% 19.5% 19.5% 19.5%;
+            grid-template-rows: 90px 90px 90px 90px 90px 90px;
+            gap:20px 0px;
+            padding-top: 7px;
+            border-radius: 20px;
+            grid-template-areas:
+            "tl tl2 tl3 tr" 
+            "tl tl5 tl3 tr" 
+            "tl7 tl5 tl3 tl8" 
+            "tl9 tl5 ac tl8"
+            "tl9 tl5 ac bc"
+            "tl9 tl5 ac bc";
+
+        }
+
+        body>div:nth-child(1)>div:nth-child(1){
+            background-color: white;
+            grid-area: tl;
+            border-radius: 10px;
+            background-image: url("./png/birds.png");
+            background-size: 100% 100%;
+        }
+        body>div:nth-child(1)>div:nth-child(2){
+            background-color: white;
+            grid-area: tl2;
+            border-radius: 10px;
+            background-image: url("./png/boat.png");
+            background-size: 100% 100%;
+            
+        }
+        body>div:nth-child(1)>div:nth-child(3){
+            background-color: white;
+            grid-area: tl3;
+            border-radius: 10px;
+            padding-left:3px;
+        }
+        body>div:nth-child(1)>div:nth-child(4){
+            background-color: white;
+            grid-area: tr;
+            border-radius: 10px;
+            background-image: url("./png/bike.png");
+            background-size: 100% 100%;
+        }
+        body>div:nth-child(1)>div:nth-child(5){
+            background-color: white;
+            grid-area: tl5;
+            border-radius: 10px;
+            padding-left:3px;
+        }
+        body>div:nth-child(1)>div:nth-child(6){
+            background-color: white;
+            grid-area: tl7;
+            border-radius: 10px;
+            background-image: url("./png/car.png");
+            background-size: 100% 100%;
+        }
+        body>div:nth-child(1)>div:nth-child(7){
+            background-color: white;
+            grid-area: tl8;
+            border-radius: 10px;
+            background-image: url("./png/cloud.jpg");
+            background-size: 100% 100%;
+        }
+        body>div:nth-child(1)>div:nth-child(8){
+            background-color: white;
+            grid-area: tl9;
+            border-radius: 10px;
+            background-image: url("./png/plane.png");
+            background-size: 100% 100%;
+        }
+        body>div:nth-child(1)>div:nth-child(9){
+            background-color: white;
+            grid-area: ac;
+            border-radius: 10px;
+            background-image: url("./png/sun.png");
+            background-size: 100% 100%;
+        }
+        body>div:nth-child(1)>div:nth-child(10){
+            background-color: white;
+            grid-area: bc;
+            border-radius: 10px;
+            background-image: url("./png/grass.png");
+            background-size: 100% 100%;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div></div>
+        <div></div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolores, doloremque aliquam voluptatibus ea asperiores debitis aliquid laborum delectus quos veritatis optio, incidunt corporis officia nulla maiores at. Id, sequi.</div>
+        <div></div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptates nisi commodi deserunt. Dolorem excepturi nemo at ducimus, quo aliquam neque explicabo, officia aspernatur qui nihil molestias harum, provident non. Sunt impedit vel error ipsa quos, est officia ipsam voluptatum reprehenderit modi provident, minus consequatur possimus iste eum autem. Sapiente!</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

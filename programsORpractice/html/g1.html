@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML All Tags Demonstration">
+    <meta name="keywords" content="HTML, Tags, Attributes">
+    <meta name="author" content="Student">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://example.com/" target="_blank">
+    <title>HTML All Tags Project</title>
+</head>
+
+<body id="top" bgcolor="lightyellow">
+
+<!-- Headings -->
+<h1 align="center">HTML Mega Demo</h1>
+<h2>Sub Heading</h2>
+<h3>Level 3</h3>
+<h4>Level 4</h4>
+<h5>Level 5</h5>
+<h6>Level 6</h6>
+
+<!-- Paragraph & Text Formatting -->
+<p align="justify" title="Paragraph">
+    This is a <b>bold</b>, <i>italic</i>, <u>underline</u>,
+    <strong>strong</strong>, <em>emphasis</em>,
+    <mark>marked</mark>, <small>small</small>,
+    <del>deleted</del>, <ins>inserted</ins>,
+    H<sub>2</sub>O, X<sup>2</sup>.
+</p>
+
+<!-- Line Break & Horizontal Line -->
+<br>
+<hr width="50%" size="2" color="black">
+
+<!-- Links -->
+<a href="https://google.com" target="_blank" title="Google Link">Visit Google</a>
+<br>
+<a href="footer">Go to Footer</a>
+
+<!-- Image -->
+<img src="https://via.placeholder.com/150"
+     alt="Sample Image"
+     width="150"
+     height="150"
+     loading="lazy">
+
+<!-- Lists -->
+<h3>Lists</h3>
+<ul type="circle">
+    <li>Unordered Item</li>
+</ul>
+
+<ol type="A" start="1">
+    <li>Ordered Item</li>
+</ol>
+
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+</dl>
+
+<!-- Table -->
+<table border="1" cellpadding="10" cellspacing="0" width="50%">
+    <caption>Student Table</caption>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="1">Alex</td>
+            <td>90</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">End</td>
+        </tr>
+    </tfoot>
+</table>
+
+<!-- Forms -->
+<h3>Form</h3>
+<form action="#" method="post" autocomplete="on">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter name" required>
+
+    <br><br>
+
+    <input type="password" name="pwd" minlength="6">
+
+    <br><br>
+
+    <input type="email" name="email">
+
+    <br><br>
+
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">Female
+
+    <br><br>
+
+    <input type="checkbox" name="skill" value="html">HTML
+
+    <br><br>
+
+    <select name="country">
+        <option value="in">India</option>
+        <option value="us">USA</option>
+    </select>
+
+    <br><br>
+
+    <textarea rows="3" cols="30">Write here</textarea>
+
+    <br><br>
+
+    <input type="file">
+
+    <br><br>
+
+    <input type="date">
+    <input type="time">
+    <input type="number" min="1" max="10">
+    <input type="range" min="0" max="100">
+
+    <br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+<!-- Media -->
+<h3>Media</h3>
+
+<video width="320" height="240" controls muted>
+    <source src="sample.mp4" type="video/mp4">
+</video>
+
+<br>
+
+<audio controls>
+    <source src="sample.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Semantic Tags -->
+<section>
+    <article>
+        <header>
+            <h4>Article Header</h4>
+        </header>
+        <p>Article content here</p>
+        <footer>Article Footer</footer>
+    </article>
+</section>
+
+<nav>
+    <a href="#">Home</a> |
+    <a href="#">About</a>
+</nav>
+
+<aside>
+    <p>Sidebar content</p>
+</aside>
+
+<!-- Details -->
+<details open>
+    <summary>More Info</summary>
+    <p>This is hidden content</p>
+</details>
+
+<!-- Progress & Meter -->
+<progress value="70" max="100"></progress>
+<meter value="1">60</meter>
+
+<!-- Iframe -->
+<iframe src="https://example.com" width="300" height="200"></iframe>
+
+<!-- Code -->
+<pre>
+<code>
+    int main() {
+        return 0;
+    }
+</code>
+</pre>
+
+<!-- Footer -->
+<footer id="footer">
+    <address>
+        Contact: <a href="mailto:test@example.com">Email</a>
+    </address>
+    <p>&copy; 2026 HTML Demo</p>
+</footer>
+
+</body>
+</html>

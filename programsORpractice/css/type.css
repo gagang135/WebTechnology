@@ -1,0 +1,23 @@
+#para{
+    color: aqua;
+    background-color: brown;
+}
+
+.para{
+    color: red;
+    background-color: black;
+}
+
+header{
+    color: goldenrod;
+    background-color: blueviolet;
+}
+
+section, aside{
+    color: aquamarine;
+    background-color: brown;
+}
+
+*{
+    background-color: gray;
+}
